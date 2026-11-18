@@ -10,8 +10,8 @@ int main(void) {
      */
     double x;
     double a;
-    scanf("%d",&x);
+    scanf("%lf",&x);
     a = x * 90/3.141592;
-    printf("%f",a);
+    printf("%f\n",a);
     return 0;
 }
